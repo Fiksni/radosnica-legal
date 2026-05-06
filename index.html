@@ -1,1 +1,406 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politika privatnosti  Radosnica Wedding Planner</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #fbf8f5;
+      --surface: #ffffff;
+      --text: #25201d;
+      --muted: #6d625c;
+      --border: #e4d9d1;
+      --accent: #8f4d57;
+    }
 
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 48px);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 36px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .status {
+      border-left: 4px solid var(--accent);
+      background: #fff7f4;
+      padding: 16px 18px;
+      margin-bottom: 30px;
+    }
+
+    .placeholder {
+      font-family: "Courier New", Courier, monospace;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 20px, 920px);
+        padding: 20px 0;
+      }
+
+      article {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Politika privatnosti  Radosnica Wedding Planner</h1>
+
+      <section class="status" aria-label="Status dokumenta">
+        <p>Ovo je politika privatnosti za mobilnu aplikaciju Radosnica Wedding Planner.</p>
+        <p>Ovo nije pravni savet i dokument zahteva pregled pre javne objave.</p>
+        <p>Javni URL politike privatnosti postoji i trenutno je hostovan preko GitHub Pages.</p>
+        <p>URL i dokument moraju biti ponovo pregledani pre javnog Google Play release-a ako se ponašanje aplikacije promeni.</p>
+        <p>Ažurirati pre javnog objavljivanja ako se promene funkcije aplikacije.</p>
+      </section>
+
+      <section>
+        <h2>Ko smo mi</h2>
+        <p>Radosnica Wedding Planner je aplikacija za planiranje venčanja.</p>
+        <p>Developer / firma: Radosnica</p>
+        <p>Email za privatnost: radosnica.app@gmail.com</p>
+        <p>URL politike privatnosti: <span class="placeholder">https://fiksni.github.io/radosnica-legal/</span></p>
+      </section>
+
+      <section>
+        <h2>Koje podatke korisnik može uneti</h2>
+        <p>Korisnik može ručno uneti podatke potrebne za planiranje venčanja, uključujući:</p>
+        <ul>
+          <li>detalje venčanja, kao što su imena mladenaca, datum venčanja i druge informacije o događaju;</li>
+          <li>podatke o gostima, kao što su imena, status dolaska, broj osoba i beleške;</li>
+          <li>podatke o budžetu, kao što su stavke, iznosi, kategorije i status plaćanja;</li>
+          <li>raspored sedenja, stolove i dodelu gostiju stolovima;</li>
+          <li>checklist podatke, uključujući zadatke, završene stavke i prilagođene stavke;</li>
+          <li>prilagođeni tekst pozivnice;</li>
+          <li>podešavanja aplikacije.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Kako se podaci čuvaju</h2>
+        <p>Trenutna verzija aplikacije čuva podatke lokalno na uređaju korisnika, koristeći lokalno skladište aplikacije.</p>
+        <p>Aplikacija trenutno nema korisnički nalog, nema backend server i ne omogućava cloud sinhronizaciju.</p>
+        <p>Podaci koje korisnik unese trenutno se ne šalju na serversku infrastrukturu developera.</p>
+      </section>
+
+      <section>
+        <h2>Za šta se podaci koriste</h2>
+        <p>Podaci se koriste za rad funkcija planera unutar aplikacije, uključujući:</p>
+        <ul>
+          <li>prikaz planera venčanja i detalja događaja;</li>
+          <li>upravljanje listom gostiju;</li>
+          <li>praćenje budžeta;</li>
+          <li>organizaciju rasporeda sedenja;</li>
+          <li>upravljanje checklist zadacima;</li>
+          <li>pripremu i prikaz prilagođenog teksta pozivnice;</li>
+          <li>čuvanje lokalnog stanja i podešavanja aplikacije između korišćenja.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Deljenje podataka</h2>
+        <p>U trenutnoj MVP verziji aplikacije nema namernog deljenja korisničkih podataka sa trećim stranama.</p>
+        <p>Aplikacija trenutno nema oglase i nema namerno dodate analitičke alate.</p>
+      </section>
+
+      <section>
+        <h2>Bezbednost</h2>
+        <p>Pošto se podaci čuvaju lokalno, njihova zaštita zavisi i od bezbednosti uređaja korisnika.</p>
+        <p>Korisnicima se preporučuje da zaštite uređaj dostupnim merama kao što su zaključavanje ekrana, PIN, lozinka ili biometrijska zaštita.</p>
+        <p>Ova politika ne tvrdi da su lokalno sačuvani podaci posebno enkriptovani.</p>
+      </section>
+
+      <section>
+        <h2>Zadržavanje i brisanje podataka</h2>
+        <p>Podaci ostaju lokalno sačuvani dok podaci aplikacije postoje na uređaju.</p>
+        <p>Deinstaliranje aplikacije ili brisanje podataka aplikacije kroz podešavanja uređaja briše lokalno sačuvane podatke aplikacije.</p>
+      </section>
+
+      <section>
+        <h2>Deca</h2>
+        <p>Aplikacija je namenjena odraslim osobama koje planiraju venčanje.</p>
+        <p>Aplikacija nije namenjena deci.</p>
+      </section>
+
+      <section>
+        <h2>Buduće izmene</h2>
+        <p>Ova politika privatnosti treba da se ažurira ako aplikacija u budućnosti doda backend server, korisničke naloge, plaćanja, Pro funkcije, analitiku, oglase, cloud sinhronizaciju, export ili share funkcije, ili forme za korisničku podršku.</p>
+      </section>
+
+      <section>
+        <h2>Kontakt</h2>
+        <p>Za pitanja u vezi sa privatnošću, kontaktirajte:</p>
+        <p>radosnica.app@gmail.com</p>
+      </section>
+
+      <footer>
+        <p>Poslednje ažuriranje: 2026-05-06</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Politika privatnosti  Radosnica Wedding Planner</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --background: #fbf8f5;
+      --surface: #ffffff;
+      --text: #25201d;
+      --muted: #6d625c;
+      --border: #e4d9d1;
+      --accent: #8f4d57;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: var(--text);
+      background: var(--background);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+
+    article {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: clamp(24px, 5vw, 48px);
+    }
+
+    h1,
+    h2 {
+      line-height: 1.25;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      margin-bottom: 20px;
+      color: var(--accent);
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-top: 36px;
+      margin-bottom: 12px;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 0 0 14px;
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .status {
+      border-left: 4px solid var(--accent);
+      background: #fff7f4;
+      padding: 16px 18px;
+      margin-bottom: 30px;
+    }
+
+    .placeholder {
+      font-family: "Courier New", Courier, monospace;
+      color: var(--muted);
+      overflow-wrap: anywhere;
+    }
+
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        width: min(100% - 20px, 920px);
+        padding: 20px 0;
+      }
+
+      article {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Politika privatnosti  Radosnica Wedding Planner</h1>
+
+      <section class="status" aria-label="Status dokumenta">
+        <p>Ovo je politika privatnosti za mobilnu aplikaciju Radosnica Wedding Planner.</p>
+        <p>Ovo nije pravni savet i dokument zahteva pregled pre javne objave.</p>
+        <p>Javni URL politike privatnosti postoji i trenutno je hostovan preko GitHub Pages.</p>
+        <p>URL i dokument moraju biti ponovo pregledani pre javnog Google Play release-a ako se ponašanje aplikacije promeni.</p>
+        <p>Ažurirati pre javnog objavljivanja ako se promene funkcije aplikacije.</p>
+      </section>
+
+      <section>
+        <h2>Ko smo mi</h2>
+        <p>Radosnica Wedding Planner je aplikacija za planiranje venčanja.</p>
+        <p>Developer / firma: Radosnica</p>
+        <p>Email za privatnost: radosnica.app@gmail.com</p>
+        <p>URL politike privatnosti: <span class="placeholder">https://fiksni.github.io/radosnica-legal/</span></p>
+      </section>
+
+      <section>
+        <h2>Koje podatke korisnik može uneti</h2>
+        <p>Korisnik može ručno uneti podatke potrebne za planiranje venčanja, uključujući:</p>
+        <ul>
+          <li>detalje venčanja, kao što su imena mladenaca, datum venčanja i druge informacije o događaju;</li>
+          <li>podatke o gostima, kao što su imena, status dolaska, broj osoba i beleške;</li>
+          <li>podatke o budžetu, kao što su stavke, iznosi, kategorije i status plaćanja;</li>
+          <li>raspored sedenja, stolove i dodelu gostiju stolovima;</li>
+          <li>checklist podatke, uključujući zadatke, završene stavke i prilagođene stavke;</li>
+          <li>prilagođeni tekst pozivnice;</li>
+          <li>podešavanja aplikacije.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Kako se podaci čuvaju</h2>
+        <p>Trenutna verzija aplikacije čuva podatke lokalno na uređaju korisnika, koristeći lokalno skladište aplikacije.</p>
+        <p>Aplikacija trenutno nema korisnički nalog, nema backend server i ne omogućava cloud sinhronizaciju.</p>
+        <p>Podaci koje korisnik unese trenutno se ne šalju na serversku infrastrukturu developera.</p>
+      </section>
+
+      <section>
+        <h2>Za šta se podaci koriste</h2>
+        <p>Podaci se koriste za rad funkcija planera unutar aplikacije, uključujući:</p>
+        <ul>
+          <li>prikaz planera venčanja i detalja događaja;</li>
+          <li>upravljanje listom gostiju;</li>
+          <li>praćenje budžeta;</li>
+          <li>organizaciju rasporeda sedenja;</li>
+          <li>upravljanje checklist zadacima;</li>
+          <li>pripremu i prikaz prilagođenog teksta pozivnice;</li>
+          <li>čuvanje lokalnog stanja i podešavanja aplikacije između korišćenja.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Deljenje podataka</h2>
+        <p>U trenutnoj MVP verziji aplikacije nema namernog deljenja korisničkih podataka sa trećim stranama.</p>
+        <p>Aplikacija trenutno nema oglase i nema namerno dodate analitičke alate.</p>
+      </section>
+
+      <section>
+        <h2>Bezbednost</h2>
+        <p>Pošto se podaci čuvaju lokalno, njihova zaštita zavisi i od bezbednosti uređaja korisnika.</p>
+        <p>Korisnicima se preporučuje da zaštite uređaj dostupnim merama kao što su zaključavanje ekrana, PIN, lozinka ili biometrijska zaštita.</p>
+        <p>Ova politika ne tvrdi da su lokalno sačuvani podaci posebno enkriptovani.</p>
+      </section>
+
+      <section>
+        <h2>Zadržavanje i brisanje podataka</h2>
+        <p>Podaci ostaju lokalno sačuvani dok podaci aplikacije postoje na uređaju.</p>
+        <p>Deinstaliranje aplikacije ili brisanje podataka aplikacije kroz podešavanja uređaja briše lokalno sačuvane podatke aplikacije.</p>
+      </section>
+
+      <section>
+        <h2>Deca</h2>
+        <p>Aplikacija je namenjena odraslim osobama koje planiraju venčanje.</p>
+        <p>Aplikacija nije namenjena deci.</p>
+      </section>
+
+      <section>
+        <h2>Buduće izmene</h2>
+        <p>Ova politika privatnosti treba da se ažurira ako aplikacija u budućnosti doda backend server, korisničke naloge, plaćanja, Pro funkcije, analitiku, oglase, cloud sinhronizaciju, export ili share funkcije, ili forme za korisničku podršku.</p>
+      </section>
+
+      <section>
+        <h2>Kontakt</h2>
+        <p>Za pitanja u vezi sa privatnošću, kontaktirajte:</p>
+        <p>radosnica.app@gmail.com</p>
+      </section>
+
+      <footer>
+        <p>Poslednje ažuriranje: 2026-05-06</p>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
